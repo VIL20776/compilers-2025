@@ -25,4 +25,4 @@ ID  : [a-zA-Z]+ ; // match identifiers
 INT : [0-9]+ ; // match integers
 NEWLINE:'\r'? '\n' ; // return newlines to parser (is end-statement signal)
 WS  : [ \t]+ -> skip ; // toss out whitespace
-// Una expresión seguida por "-> skip" descarta cualquier conisidencia con esa expresión
+// Una expresión seguida por "-> skip" descarta cualquier coincidencia con esa expresión
